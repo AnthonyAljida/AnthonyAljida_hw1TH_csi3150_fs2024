@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony's Portfolio Website</title>
+    <!-- Favicon according to instructions -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/fav-icon.png" />
+  </head>
+  <body>
+    <!-- Navigation bar for all pages -->
+    <header>
+      <h1>Anthony Aljida&apos;s Portfolio Website</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home Page</a></li>
+          <li><a href="./html/my_resume.html">Resume Page</a></li>
+          <li><a href="./html/my_fun_facts.html">Fun Facts Page</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Image of myself -->
+      <img src="./assets/img/self-image.jpeg" alt="Picture of the author" />
+      <!-- Blockquote allows for indenting without CSS -->
+      <blockquote>
+        <!-- Quote element -->
+        <q>If you can change your mind, you can change your life.</q> - William
+        James
+      </blockquote>
+      <!-- About me paragraph -->
+      <article>
+        <p>
+          Hello everyone, my name is Anthony Aljida. I am a senior studying
+          computer science and will be graduating Fall 2024. I am from Novi, MI
+          but my dad was born in Iraq and moved here when he was 21 years old. I
+          am currently a software engineering intern at Alps Alpine where I work
+          on an internal company website using React, work closely with embedded
+          software engineers, create GUI applications in Python interacting with
+          embedded devices, and work with Jira/Confluence for project
+          management. My future interests are in full-stack development
+          positions where I will be the primary person organizing our cloud
+          infrastructure with tools like Terraform and Kubernetes. To know more
+          about me check out my
+          <a href="./html/my_resume.html">resume</a> and
+          <a href="./html/my_fun_facts.html">fun facts</a>
+        </p>
+      </article>
+      <!-- Progress bar element, value and max set the visual for the progress bar -->
+      <!-- Id allows a label to be linked with it -->
+      <progress id="Degree-progress" value="116" max="128"></progress>
+      <label for="Degree-progress"
+        >Visual for my last 3 classes at OU with 116/128 credits</label
+      >
+    </main>
+    <!-- Copyright and contact information -->
+    <footer>
+      <hr />
+      <ul>
+        <li>
+          <span>Email: </span
+          ><a href="mailto:aaljida@oakland.edu">aaljida@oakland.edu</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/anthonyaljida/">Linkedin</a>
+        </li>
+        <li><a href="https://github.com/AnthonyAljida">Github</a></li>
+      </ul>
+      <copyright>Copyright @2024 by Anthony Aljida</copyright>
+    </footer>
+  </body>
+</html>
